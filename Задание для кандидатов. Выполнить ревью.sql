@@ -1,6 +1,7 @@
 create procedure syn.usp_ImportFileCustomerSeasonal
 	@ID_Record int
-AS
+-- test
+as
 set nocount on
 begin
 	declare @RowCount int = (select count(*) from syn.SA_CustomerSeasonal)
